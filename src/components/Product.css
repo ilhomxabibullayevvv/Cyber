@@ -1,0 +1,105 @@
+.product {
+    padding: 50px 0;
+}
+
+.product__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product__card {
+    width: 268px;
+    height: 462px;
+    min-width: 200px;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 9px 9px 9px 9px;
+    background: #F6F6F6;
+    text-align: center;
+}
+
+.product__block {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.product__image {
+    width: 29.33px;
+    height: 26.67px;
+    top: 1.33px;
+    left: 1.33px;
+    gap: 0px;
+    border: 1.4px 1.4px 1.4px 1.4px;
+    opacity: 0px;
+}
+
+.product__image2 {
+    width: 160px;
+    height: 160px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.product p {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.product button {
+    width: 188px;
+    height: 48px;
+    padding: 12px 64px;
+    border-radius: 8px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.product button:hover {
+    opacity: 0.8;
+}
+
+.product__btn {
+    width: 188px;
+    height: 48px;
+    padding: 12px 64px;
+    border-radius: 8px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.product__image {
+    cursor: pointer;
+}
+
+.product__image[src='path/to/liked-image.svg'] {
+    filter: brightness(0) saturate(100%) invert(28%) sepia(74%) saturate(3628%) hue-rotate(354deg) brightness(97%) contrast(87%);
+}

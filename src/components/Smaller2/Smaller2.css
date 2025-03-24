@@ -1,0 +1,137 @@
+.smaller {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.smaller__card {
+    min-width: 280px;
+    padding: 0px 32px 56px 32px;
+    gap: 24px;
+    opacity: 0px;
+}
+
+.smaller__card2 {
+    min-width: 280px;
+    padding: 0px 32px 56px 32px;
+    gap: 24px;
+    opacity: 0px;
+    background: #F9F9F9;
+}
+
+.smaller__card3 {
+    min-width: 280px;
+    padding: 0px 32px 56px 32px;
+    gap: 24px;
+    opacity: 0px;
+    background: #EAEAEA;
+}
+
+.smaller__card4 {
+    min-width: 280px;
+    padding: 0px 32px 56px 32px;
+    gap: 24px;
+    opacity: 0px;
+    background: #2C2C2C;
+}
+
+.smaller__image {
+    width: 360px;
+    height: 366px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.smaller__name {
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+.smaller__descraption {
+    width: 236px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.smaller__btn {
+    width: 191px;
+    height: 56px;
+    padding: 16px 56px 16px 56px;
+    gap: 8px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    background: #ffffff;
+    border: 2px solid #000000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.smaller2__name {
+    font-family: Inter;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.smaller2__descraption {
+    width: 236px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.smaller2__btn {
+    width: 191px;
+    height: 56px;
+    padding: 16px 56px 16px 56px;
+    gap: 8px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    background: #000000;
+    border: 2px solid #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}

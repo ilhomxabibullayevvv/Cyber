@@ -1,0 +1,30 @@
+.cart {
+    padding: 30px 0;
+}
+
+.cart__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.cart img {
+    width: 100px;
+    height: 100px;
+}
+
+.cart button {
+    width: 108px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #000000;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}

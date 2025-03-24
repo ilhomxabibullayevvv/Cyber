@@ -1,0 +1,54 @@
+.category {
+    padding: 50px 0;
+    background: #FAFAFA;
+}
+
+.category__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category__title {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.catigory__button {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.category__btn {
+    background: none;
+}
+
+.category__card {
+    min-width: 135px;
+    padding: 24px 52px 24px 52px;
+    gap: 8px;
+    border-radius: 15px 15px 15px 15px;
+    opacity: 0px;
+    background: #EDEDED;
+}
+
+.category__name {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}

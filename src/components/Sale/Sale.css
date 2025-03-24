@@ -1,0 +1,56 @@
+.sale {
+    text-align: center;
+    background-position: center;
+    background-image: url('https://s3-alpha-sig.figma.com/img/942b/063e/fe4f8cf2ecc828f4183bd3b7d2d0cac5?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JQjZrb-NAfHR2-MmQZ5ov5WVUPRN6NDGfo9qUPGgEvAqrwosnCo4NYPeS2nx~4OdkPYOiF~whYomjAtxBJgV5PuYfgsLuByExyfqJkPQlQw7hxTOS9ZcRRpvDzmFclR-w6useUH2klUV7zdkc5lm9gpRH31kxHsVIlT478HUU9P~-~q9T9PfpLIU7HA9DrZzOp2~t6TfpDGjk2XL2gR9-GDloE2Tdq8FJEYsT55RRJggRlZnD-nmxUIKesFo-NE3PC9cF-h~h9Ir8Zp6xJ4UjBcUJ1y7njRQn3fiuWFcYyJvALxi6qzkF-dlfCFoPUZZHqozgM~Y0uTmjLfE-Iu-hw__');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 448px;
+    gap: 8px;
+    opacity: 0px;
+}
+
+.sale__title {
+    padding-top: 150px;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 100;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+}
+
+.sale__text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #787878;
+    margin-bottom: 30px;
+}
+
+.sale__btn {
+    width: 191px;
+    height: 56px;
+    padding: 16px 56px 16px 56px;
+    gap: 8px;
+    border-radius: 6px 6px 6px 6px;
+    border: 1px 1px 1px 1px;
+    opacity: 0px;
+    border: 1px solid #FFFFFF;
+    background: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+}

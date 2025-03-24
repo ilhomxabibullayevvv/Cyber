@@ -1,0 +1,15 @@
+.heart {
+    background-color: transparent;
+    border: 2px solid #ccc;
+    color: #555;
+    font-size: 30px;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.heart.liked {
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+}
