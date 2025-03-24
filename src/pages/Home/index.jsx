@@ -10,7 +10,7 @@ import Smaller2 from '../../components/Smaller2';
 import Discount from '../../components/Discount';
 const Home = ({ searchQuery }) => {
   const dispatch = useDispatch();
-  const [loading, setLoading] = useState(true);  // Loading state for products
+  const [loading, setLoading] = useState(true);
 
   const products = useSelector((state) => state.product.products);
   const [filteredProducts, setFilteredProducts] = useState([]);
@@ -25,10 +25,10 @@ const Home = ({ searchQuery }) => {
 
         const data = await response.json();
         dispatch(setProducts(data.data));
-        setLoading(false);  // Set loading to false after products are fetched
+        setLoading(false);
       } catch (error) {
         console.error('Error fetching products:', error);
-        setLoading(false);  // Set loading to false even if there's an error
+        setLoading(false);
       }
     };
 
@@ -53,13 +53,13 @@ const Home = ({ searchQuery }) => {
       <Category />
       <div className="product-list">
         {loading ? (
-          <p>Loading products...</p>  // Show loading state while products are being fetched
+          <p>Loading products...</p>
         ) : filteredProducts.length > 0 ? (
           filteredProducts.map((product) => (
             <Product key={product.id} product={product} />
           ))
         ) : (
-          <p>No products found.</p>  // Show message if no products match the filter
+          <p>No products found.</p>
         )}
       </div>
       <Smaller2 />
