@@ -8,8 +8,6 @@ import Category from '../../components/Category';
 import Product from '../../components/Product';
 import Smaller2 from '../../components/Smaller2';
 import Discount from '../../components/Discount';
-import Sale from '../../components/Sale';
-
 const Home = ({ searchQuery }) => {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(true);  // Loading state for products
@@ -66,7 +64,6 @@ const Home = ({ searchQuery }) => {
       </div>
       <Smaller2 />
       <Discount />
-      <Sale />
     </>
   );
 };
